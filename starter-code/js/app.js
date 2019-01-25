@@ -7,6 +7,8 @@ var Cart = function(items) {
 };
 
 Cart.prototype.addItem = function(product, quantity) {
+  var newItem = new CartItem(selectedItems, itemQuant);
+  this.items.push(newitem);
   // TODO: Fill in this instance method to create a new CartItem and add it to this.items
 };
 
